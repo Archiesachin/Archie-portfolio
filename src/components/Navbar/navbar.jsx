@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
   return (
-    <div >
+    <section>
     <nav className=' h-16 w-full fixed top-0 left-0 bg-lightBg' style={{ zIndex: 99 }}>
       <div className='md:flex items-center justify-between  py-4 md:px-10 px-7'>
         <div className=' font-bold cursor-pointer flex items-center pt-1.5'>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
 
 
-    </div>
+    </section>
   )
 }
 

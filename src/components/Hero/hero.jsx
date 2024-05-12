@@ -10,7 +10,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className='pt-0 mt-20 ' id='home'>
+    <section className='pt-0 mt-4 ' id='home'>
       <div className='pt-14 w-[200%] flex justify-center md:w-full'>
         <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
           <div className='w-[500px]  items-center justify-center text-left flex-col  p-16 pt-0 z-[-1] md:w-full sm:w-full '>
@@ -31,7 +31,7 @@ const Hero = () => {
             
             </div>
 
-            <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 font-[500] text-[15px] leading-7  sm-pr-10 mt-14'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem necessitatibus dolorem a accusamus repellendus tempora cumque, aliquid dolorum vitae, autem laudantium recusandae fuga.</p>
+            <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 font-[500] text-[15px] leading-7  sm-pr-10 mt-14'>I'm a passionate third-year IT engineering student with a strong interest in Frontend Development. I'm a quick learner who thrives on challenges and loves diving into new technologies. Explore my portfolio to see my projects and how I bring ideas to life on the web!</p>
 
             <div className='flex items-center gap-9 mt-14 '>
               <span className='text-[18px] font-[600] '>Follow me:</span>
