@@ -7,7 +7,7 @@
 
  It is a fully responsive portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/richard-ryan/"><strong>➥ Live Demo</strong></a>
+  <a href="https://archiesachin.github.io/Archie-portfolio/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
