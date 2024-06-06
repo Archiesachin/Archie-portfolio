@@ -15,7 +15,9 @@
 
 ### Demo Screeshots
 
-![Richard Ryan Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+
+![desktop](https://github.com/Archiesachin/Archie-portfolio/assets/103347688/0354b159-2e17-4687-8054-25aaf7700dfb)
+
 
 
 
