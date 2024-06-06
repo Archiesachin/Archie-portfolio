@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Archie Shah</title>
+  <meta name="title" content="Archie Shah">
+  <meta name="description" content="Portfolio Website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+
+</head>
+
+<body class="active" id="top">
+
+  <!-- 
+    -#PRELOADING
+  -->
+
+  <div class="loading" data-loading>
+    <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img">
+    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="40" height="40" alt="Richard home">
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="40" height="40" alt="Richard home" class="img">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
+        </ul>
+
+
+        <p class="navbar-text">
+          Urgent issue? call us at
+          <a href="tel:8767222341" class="contact-link">+91 8767222341</a>
+        </p>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <!-- <img src="./assets/images/hero-banner.png" width="322" height="322" alt="" class="hero-banner"> -->
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Archie Shah</h1>
+
+            <div class="wrapper h2">
+              <strong class="strong" data-letter-effect>Web Developer</strong>
+              <strong class="strong" data-letter-effect>IT Engineer</strong>
+              <strong class="strong" data-letter-effect>Civil Engineer</strong>
+              <strong class="strong" data-letter-effect>Dancer</strong>
+            </div>
+
+            <p class="hero-text">2+ Years Of Experience</p>
+
+          </div>
+
+        </div>
+
+        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="" class="shape">
+
+      </section>
+
+
+
+
+
+      
+
+<!--ABOUT-->
+
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title" data-reveal="right">
+              Hello, I’m <br>
+              Archie Shah
+            </h2>
+
+            <div class="wrapper has-before" data-reveal="right">
+
+              <p class="section-text">
+                A passionate
+                <em class="em">Web Developer</em>
+                with proficiency and expertise in 
+                <em class="em">Frontend.</em>
+                I’m ready to give you my best.
+              </p>
+
+              <button class="login-btn">
+      
+                <a href="assets/Archie Sachin Shah Resume.pdf" download="Archie Sachin Shah Resume.pdf">
+                  <span class="span">Download Resume</span>
+                </a>
+                
+
+              
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="left">
+
+            <div class="img-holder has-before" style="--width: 512; --height: 684;">
+              <img src="./assets/images/pfp-edit.jpeg" width="512" height="684" loading="lazy" alt="Archie Shah"
+                class="img-cover">
+            </div>
+
+          
+
+            <img src="./assets/images/about-shape-2.svg" width="659" height="653" loading="lazy" alt=""
+              class="shape shape-2">
+
+          </figure>
+
+          <img src="./assets/images/about-shape-3.svg" width="239" height="232" loading="lazy" alt=""
+            class="shape shape-3">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Projects
+      -->
+
+      <section class="section service" id="services" aria-labelledby="service-lable">
+
+        <p class="section-subtitle container" id="service-lable">My Projects</p>
+
+        <ul class="service-list">
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/Steam_punk.png" width="500" height="450" loading="lazy" alt="Wedding Photography"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">Steam Punk</h3>
+
+                <p class="card-subtitle">
+                  JavaScript Based Game
+                </p>
+              </div>
+
+              <a href="https://github.com/Archiesachin/Steam_Punk" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/CineVerse.png" width="340" height="380" loading="lazy" alt="Event Organiser"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">CineVerse</h3>
+
+                <p class="card-subtitle">
+                  Movie Recommendation System.
+                </p>
+              </div>
+
+              <a href="https://github.com/Archiesachin/CineVerse-Movie_Rec" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/HealthBridge.png" width="340" height="380" loading="lazy" alt="Product Marketing"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">Health Bridge</h3>
+
+                <p class="card-subtitle">
+                  Electronic Health Record System
+                </p>
+              </div>
+
+              <a href="https://github.com/Archiesachin/HealthBridge" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/Snoozz.png" width="340" height="380" loading="lazy" alt="Videography"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">Snoozz Productions</h3>
+
+                <p class="card-subtitle">
+                  Portfolio of a service based company. 
+                </p>
+              </div>
+
+              <a href="https://snoozz.in/" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section" id="contact">
+      <div class="container">
+
+        <p class="section-subtitle" data-reveal>Contact Us</p>
+
+        <h2 class="h2 section-title" data-reveal>
+          Work inquiry, Job oportunities? Send Message.
+        </h2>
+
+        <a href="mailto:archieshah8767@gmail.com" class="btn-icon" data-reveal>
+          <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+        </a>
+        
+
+        
+
+        <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="40" height="40" loading="lazy" alt="Archie home">
+        </a>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/archie-shah-22b35124a/" class="social-link">In.</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Archiesachin" class="social-link">Git.</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/archie.shah_/" class="social-link">Insta.</a>
+          </li>
+
+          <li>
+            <a href="https://x.com/archie__shah?t=TYiW6GA-9GVByU8hMwvOQg&s=08" class="social-link">Tw.</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">Made with love @Archie</p>
+
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="photography"
+        class="img-cover">
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
